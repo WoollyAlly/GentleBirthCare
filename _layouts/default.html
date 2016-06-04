@@ -54,7 +54,8 @@
             <ul class="nav">
                 
   {% for nav in site.navigation %}
-                
+                {{page.url}}
+                {{nav.file}}
     {% if page.url == nav.file %}
         <li class="active">
     {% else %}
