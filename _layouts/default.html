@@ -55,16 +55,16 @@
                 
   {% for nav in site.navigation %}
                 
-    {% if page.url == link.url %}
+    {% if page.url == nav.file %}
         <li class="active">
     {% else %}
         <li>
     {% endif %}
-                    <a href="{{nav.url}}">
-                        <i class="{{nav.icon}}" ></i>
-                        <p>{{nav.name}}</p>
-                    </a>
-                </li>
+        <a href="{{nav.url}}">
+            <i class="{{nav.icon}}" ></i>
+            <p>{{nav.name}}</p>
+        </a>
+    </li>
                 
   {% endfor %}
   
