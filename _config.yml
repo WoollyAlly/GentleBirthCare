@@ -25,11 +25,11 @@ navigation:
    icon: "ti-info"
  - url: "/"
    name: BrithStories
-   file: "/index.html"
+   file: "/inde.html"
    icon: "ti-book"
  - url: "/"
    name: Breastfeeding Class
-   file: "/index.html"
+   file: "/inde.html"
    icon: "ti-home"
  - url: "/maps.html"
    name: Office Locations
@@ -37,7 +37,7 @@ navigation:
    icon: "ti-home"
  - url: "/"
    name: Why Home Brith?
-   file: "/index.html"
+   file: "/inde.html"
    icon: "ti-home"
 
 
