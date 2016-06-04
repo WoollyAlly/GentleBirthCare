@@ -54,13 +54,8 @@
             <ul class="nav">
                 
   {% for page in site.pages %}
-
-                <li>
-                    <a href={{page.url}}>
-                        <i class=page.icon></i>
-                        <p>{{page.name}}</p>
-                    </a>
-                </li>
+{{page}}
+                
   {% endfor %}
   
                 <li class="active">
