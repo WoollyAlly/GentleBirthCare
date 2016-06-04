@@ -17,7 +17,7 @@ social:
 navigation:
  - url: "/"
    name: Home
-   file: "index.html"
+   file: "/index.html"
    icon: "ti-home"
 
 
