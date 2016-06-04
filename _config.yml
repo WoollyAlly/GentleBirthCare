@@ -39,7 +39,18 @@ navigation:
    name: Why Home Brith?
    file: "/inde.html"
    icon: "ti-home"
+   
+collections:
+  profiles:
+    output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "stylists"
+    values:
+      layout: "stylist"
 
 defaults:
   -
