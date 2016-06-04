@@ -54,7 +54,12 @@
             <ul class="nav">
                 
   {% for nav in site.navigation %}
-                <li>
+                
+    {% if page.url == link.url %}
+        <li class="active">
+    {% else %}
+        <li>
+    {% endif %}
                     <a href="{{nav.url}}">
                         <i class="{{nav.icon}}" ></i>
                         <p>{{nav.name}}</p>
@@ -63,7 +68,7 @@
                 
   {% endfor %}
   
-                <li class="active">
+                <li>
                     <a href="/">
                         <i class="ti-home"></i>
                         <p>Home {{page.url}}</p>
