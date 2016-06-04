@@ -14,9 +14,11 @@ social:
   #linkedin-square: https://linkedin.com/in/<username>
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
-collections:
-  stylists:
-    output: true
+pages:
+ - url: "/"
+   name: Home
+   file: "index.html"
+   icon: "ti-home"
 
 
 # Build settings
