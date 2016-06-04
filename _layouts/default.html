@@ -53,8 +53,13 @@
 
             <ul class="nav">
                 
-  {% for page in site.pages %}
-{{page}}
+  {% for nav in site.pages %}
+    <li>
+                    <a href={{nav.url}}>
+                        <i class=nav.icon></i>
+                        <p>{{nav.name}}</p>
+                    </a>
+                </li>
                 
   {% endfor %}
   
