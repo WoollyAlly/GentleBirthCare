@@ -41,6 +41,13 @@ navigation:
    icon: "ti-home"
 
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "profiles"
+    values:
+      layout: "profile"
 
 # Build settings
 markdown: kramdown
