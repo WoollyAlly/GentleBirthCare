@@ -26,7 +26,7 @@ navigation:
  - url: "/"
    name: Why Home Birth?
    file: "/why-home-birth.html"
-   icon: "ti-book"
+   icon: "ti-thumb-up"
  - url: "/"
    name: Meet the Team
    file: "/team.html"
@@ -34,7 +34,7 @@ navigation:
  - url: "/maps.html"
    name: Contact
    file: "/contact.html"
-   icon: "ti-home"
+   icon: "ti-email"
    
 collections:
   profiles:
