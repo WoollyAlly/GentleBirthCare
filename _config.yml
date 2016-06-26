@@ -20,24 +20,20 @@ navigation:
    file: "/index.html"
    icon: "ti-home"
  - url: "/about.html"
-   name: About the Midwives
-   file: "/about.html"
+   name: Services
+   file: "/services.html"
    icon: "ti-info"
  - url: "/"
-   name: BrithStories
-   file: "/inde.html"
+   name: Why Home Birth?
+   file: "/why-home-birth.html"
    icon: "ti-book"
  - url: "/"
-   name: Breastfeeding Class
-   file: "/inde.html"
+   name: Meet the Team
+   file: "/team.html"
    icon: "ti-home"
  - url: "/maps.html"
-   name: Office Locations
-   file: "/maps.html"
-   icon: "ti-home"
- - url: "/"
-   name: Why Home Brith?
-   file: "/inde.html"
+   name: Contact
+   file: "/contact.html"
    icon: "ti-home"
    
 collections:
